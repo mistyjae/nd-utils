@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<title>{%= o.htmlWebpackPlugin.options.title %}</title>
+        <link rel="shortcut icon" href="/img/favicon.ico" />
+		<script >
+			if (!document.addEventListener) {
+                // IE6~IE8
+                document.write('<script src="http://cdn.bootcss.com/es5-shim/4.5.7/es5-shim.min.js"><\/script>');
+                document.write('<script src="http://cdn.bootcss.com/es5-shim/4.5.7/es5-sham.min.js"><\/script>');
+                document.write('<script src="http://cdn.bootcss.com/es6-promise/3.2.1/es6-promise.min.js"><\/script>');
+                document.write('<script src="ie8utils/console-polyfill.js"><\/script>');
+                document.write('<script src="ie8utils/html5.js"><\/script>');
+            }
+		</script>
+	</head>
+	<body>
+		<div id="root"></div>
+	</body>
+</html>

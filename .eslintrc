@@ -1,0 +1,29 @@
+{
+  "extends": "rackt",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "jsx-quotes": [ 2, "prefer-single" ],
+    "array-bracket-spacing": [ 0, "always" ],
+    "object-curly-spacing": [ 0, "always" ],
+    "react/display-name": 1,
+    "react/jsx-boolean-value": 1,
+    "react/prop-types": 1,
+    "no-extra-semi": 2, // 不允许多余的分号
+    "semi": [2, "never"], // 可以不使用分号的地方都不使用分号
+    "no-spaced-func": 2, // 调用函数（非声明函数）时括号与函数名之间不允许空格
+    "no-unreachable" : 2, // 不允许访问不到的语句
+    "no-console": 0, // 暂不启用
+    "indent": [2,4, {"SwitchCase":0, "VariableDeclarator": {"var":1, "let": 1, "const": 1}}],
+    "comma-dangle": [2],  // 以下为 ie8 相关规则, 参考: https://github.com/sanctuary-js/sanctuary-style/blob/master/eslint-es3-only.json
+    "dot-notation": [2, {"allowKeywords": false}],
+    //"no-catch-shadow": [],
+    //"no-func-assign": [],
+    "no-inner-declarations": [2, "functions"],
+//    "no-invalid-regexp": [2, {"allowConstructorFlags": ["g", "i", "m"]}],
+    "no-redeclare": [2, {"builtinGlobals": true}],
+    "no-unused-vars": [0, {"vars": "all", "args": "none", "caughtErrors": "none"}],
+    "quote-props": [2, "consistent"]
+  }
+}

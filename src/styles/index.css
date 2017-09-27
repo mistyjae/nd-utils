@@ -1,0 +1,15 @@
+.transform-link {
+    color: #4da2ec;
+}
+
+.transform-link:active {
+    color: #51a6f0;
+}
+
+.transform-link:link {
+    color: #51a6f0;
+}
+
+.transform-link:visited {
+    color: #51a6f0;
+}
