@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mistyjae/nd-utils.git"
+    "url": "https://github.com/mistyjae/nd-utils.git"
   },
   "keywords": [
     "utils",
@@ -21,6 +21,10 @@
     "test": "mocha --compilers js:babel-core/register -r babel-polyfill -r mock-local-storage  -r ignore-styles -r setup.js --recursive "
   },
   "license": "MIT",
+  "files": [
+    "lib",
+    "package.json"
+  ],
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "autoprefixer-loader": "^2.0.0",
